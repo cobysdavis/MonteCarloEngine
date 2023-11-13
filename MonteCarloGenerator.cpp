@@ -9,7 +9,7 @@
 
 MonteCarloGenerator::MonteCarloGenerator(int n_paths)
 {
-    this->n_pathfs= n_paths;
+    this->n_paths= n_paths;
     }
 
 std::vector<float> MonteCarloGenerator::get_paths() {
